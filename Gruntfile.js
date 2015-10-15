@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    rollup: {
+    'rollup-babel': {
       default_options: {
         options: {},
         files: {
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'rollup', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'rollup-babel', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

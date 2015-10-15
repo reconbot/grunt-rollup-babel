@@ -16,7 +16,7 @@ npm install grunt-rollup-babel --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-rollup');
+grunt.loadNpmTasks('grunt-rollup-babel');
 ```
 
 ## The "rollup" task
@@ -26,7 +26,7 @@ In your project's Gruntfile, add a section named `rollup` to the data object pas
 
 ```js
 grunt.initConfig({
-  rollup: {
+  rollup_babel: {
     options: {
       // Task-specific options go here.
     },
@@ -41,7 +41,6 @@ grunt.initConfig({
 
 Supports all the options from [rollup's JavaScript API](https://github.com/rollup/rollup/wiki/JavaScript-API).
 
-
 ### Sourcemaps
 
 Sourcemaps are not supported in rollup babel. When they are this plugin will work without issue.
@@ -50,7 +49,7 @@ Sourcemaps are not supported in rollup babel. When they are this plugin will wor
 
 ```js
 grunt.initConfig({
-  rollup: {
+  rollup_babel: {
     options: {},
     files: {
       'dest/bundle.js': ['src/entry.js'], // Only one source file is permitted

@@ -14,7 +14,7 @@ var path = require('path');
 
 module.exports = function(grunt) {
 
-  grunt.registerMultiTask('rollup', 'Grunt plugin for rollup - next-generation ES6 module bundler', function() {
+  grunt.registerMultiTask('rollup-babel', 'Grunt plugin for rollup-babel - next-generation ES6 module bundler', function() {
 
     var done = this.async();
 
