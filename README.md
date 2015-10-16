@@ -50,7 +50,10 @@ Sourcemaps are not supported in rollup babel. When they are this plugin will wor
 ```js
 grunt.initConfig({
   rollup_babel: {
-    options: {},
+    options: {
+      external: ['react'],
+      format: 'cjs'
+    },
     files: {
       'dest/bundle.js': ['src/entry.js'], // Only one source file is permitted
     },
