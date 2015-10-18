@@ -55,7 +55,7 @@ module.exports = function(grunt) {
         entry: entry,
         external: options.external,
         babel: {
-          sourceMap: options.sourceMap
+          sourceMap: !!options.sourceMap
         }
       }).then(function(bundle) {
 
