@@ -15,30 +15,30 @@ exports.rollup = {
 
     assertFilesSame(test, 'tmp/default_options.js',
       'test/expected/default_options.js',
-      'should describe what the default behavior is.');
+      'describes what the default behavior is.');
 
     test.done();
-  // },
-  // source_map: function(test) {
-  //   test.expect(2);
+  },
+  source_map: function(test) {
+    test.expect(2);
 
-  //   assertFilesSame(test, 'tmp/source_map.js',
-  //     'test/expected/source_map.js',
-  //     'should describe behaviour with sourcemap and banner/footer.');
+    assertFilesSame(test, 'tmp/source_map.js',
+      'test/expected/source_map.js',
+      'describes behaviour with sourcemap and banner/footer.');
 
-  //   assertFilesSame(test, 'tmp/source_map.js.map',
-  //     'test/expected/source_map.js.map',
-  //     'should write a map file.');
+    assertFilesSame(test, 'tmp/source_map.js.map',
+      'test/expected/source_map.js.map',
+      'writes a map file.');
 
-  //   test.done();
-  // },
-  // source_map_inline: function(test) {
-  //   test.expect(1);
+    test.done();
+  },
+  source_map_inline: function(test) {
+    test.expect(1);
 
-  //   assertFilesSame(test, 'tmp/source_map_inline.js',
-  //     'test/expected/source_map_inline.js',
-  //     'should describe behaviour with sourcemap inline.');
+    assertFilesSame(test, 'tmp/source_map_inline.js',
+      'test/expected/source_map_inline.js',
+      'describes behaviour with sourcemap inline.');
 
-  //   test.done();
+    test.done();
   }
 };
