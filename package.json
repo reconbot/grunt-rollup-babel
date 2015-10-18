@@ -1,7 +1,7 @@
 {
   "name": "grunt-rollup-babel",
   "description": "Grunt plugin for rollup-babel - next-generation ES6 module bundler",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "homepage": "https://github.com/reconbot/grunt-rollup-babel",
   "author": [
     {
