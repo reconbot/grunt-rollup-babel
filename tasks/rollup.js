@@ -53,7 +53,10 @@ module.exports = function(grunt) {
 
       return rollup.rollup({
         entry: entry,
-        external: options.external
+        external: options.external,
+        babel: {
+          sourceMap: options.sourceMap
+        }
       }).then(function(bundle) {
 
         var sourceMapFile = options.sourceMapFile;
