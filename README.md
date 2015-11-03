@@ -1,3 +1,5 @@
+This module is depreciated. Babel support is now a rollup plugin. =) Use the forked from grunt-rollup instead.
+
 # grunt-rollup-babel
 [![Build Status](https://travis-ci.org/reconbot/grunt-rollup-babel.svg)](https://travis-ci.org/reconbot/grunt-rollup-babel)
 [![dependencies](https://david-dm.org/reconbot/grunt-rollup-babel.svg)](https://david-dm.org/reconbot/grunt-rollup-babel)
