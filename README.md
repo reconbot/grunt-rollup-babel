@@ -24,11 +24,11 @@ grunt.loadNpmTasks('grunt-rollup-babel');
 ## The "rollup" task
 
 ### Overview
-In your project's Gruntfile, add a section named `rollup` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `rollup-babel` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  rollup_babel: {
+  'rollup-babel': {
     options: {
       // Task-specific options go here.
     },
@@ -51,7 +51,7 @@ Sourcemaps are not supported in rollup babel. When they are this plugin will wor
 
 ```js
 grunt.initConfig({
-  rollup_babel: {
+  'rollup-babel': {
     options: {
       external: ['react'],
       format: 'cjs'
