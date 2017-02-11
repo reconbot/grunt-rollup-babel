@@ -1,5 +1,7 @@
 # This module is deprecated. Babel support is now a rollup plugin. You should use [grunt-rollup](https://github.com/chrisprice/grunt-rollup) instead.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/reconbot/grunt-rollup-babel.svg)](https://greenkeeper.io/)
+
 # grunt-rollup-babel
 [![Build Status](https://travis-ci.org/reconbot/grunt-rollup-babel.svg)](https://travis-ci.org/reconbot/grunt-rollup-babel)
 [![dependencies](https://david-dm.org/reconbot/grunt-rollup-babel.svg)](https://david-dm.org/reconbot/grunt-rollup-babel)
